@@ -25,9 +25,9 @@ __________________
 # guarda gli screen per aiutarti con la procedura
 
 <p>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/2171705a25f250194396af0193946a32d5cd18e1/Cattura.PNG?branch=main">
+<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto1.PNG?branch=main">
 <br>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/2171705a25f250194396af0193946a32d5cd18e1/Cattura2.PNG?branch=main">
+<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto2.PNG?branch=main">
 <br>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/2171705a25f250194396af0193946a32d5cd18e1/Cattura3.PNG?branch=main">
+<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto3.PNG?branch=main">
 </p>
