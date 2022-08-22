@@ -26,6 +26,7 @@ __________________
 
 <p>
 <img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto1.PNG?branch=main">
+<p>scrivete la vostra mail</p>
 <br>
 <img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto2.PNG?branch=main">
 <br>
