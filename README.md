@@ -1,6 +1,7 @@
-# guida per installare il certificato https su una VPS linux
+# Guida per installare il certificato https su un server linux
+## NB: nelle entrambi procedure dove vi viene detto git clone va fatto solo una volta
 _______________________
-## Procedura per apache
+### Procedura per apache
 
 1. scaricate i files 
 
@@ -12,7 +13,7 @@ git clone https://github.com/ArduinoDenis/certificato-https.git
 ```bash
 cd /certificato-https
 ```
-3. dare i permessi per eseguire il file apache.sh
+3. sto dando i permessi per eseguire il file apache.sh
 
 ```bash
 sudo chmod 777 apache.sh
@@ -24,7 +25,7 @@ sudo chmod 777 apache.sh
 ```
 
 __________________
-## Procedura per nginx
+### Procedura per nginx
 
 1. scarichiamo i files 
 
@@ -37,7 +38,7 @@ git clone https://github.com/ArduinoDenis/certificato-https.git
 cd /certificato-https
 ```
 
-3. dare i permessi per eseguire il file nginx.sh
+3. sto dando i permessi per eseguire il file nginx.sh
 
 ```bash
 sudo chmod 777 nginx.sh
@@ -49,7 +50,7 @@ sudo chmod 777 nginx.sh
 ./nginx.sh
 ```
 
-# guarda gli screen per aiutarti con la procedura
+## guarda gli screen per aiutarti con la procedura
 
 ![foto1](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto1.PNG)
 * scrivete la vostra mail
@@ -67,3 +68,22 @@ sudo chmod 777 nginx.sh
 - Aspettare che abbia finito la procedura 
 
 - Al termine della procedura vi comunica che avete installato con successo il certificato https
+-----
+## procedura per rinnovare il certificato https
+
+1. mi sposto nella cartella certificato https
+
+```bash
+cd /certificato-https
+```
+
+2. sto dando i permessi per eseguire il file rinnovare-https.sh
+
+```bash
+sudo chmod 777 rinnovare-https.sh
+```
+3. eseguiamo il file rinnovare-https.sh
+
+```bash
+./rinnovare-https.sh
+```
