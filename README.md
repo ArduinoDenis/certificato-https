@@ -1,34 +1,69 @@
-# guida per installare il certificato-https su una VPS linux
+# guida per installare il certificato https su una VPS linux
 _______________________
-# Procedura per apache
+## Procedura per apache
 
-# 1 scaricate i files git clone https://github.com/ArduinoDenis/certificato-https.git
+1. scaricate i files 
 
-# 2 cd /certificato-https
+```bash
+git clone https://github.com/ArduinoDenis/certificato-https.git
+```
+2. spostarti nella cartella dei file scaricati in precedenza
 
-# 3 fare sudo chmod 777 apache.sh
+```bash
+cd /certificato-https
+```
+3. dare i permessi per eseguire il file apache.sh
 
-# 4 eseguite il apache.sh quindi ./apache.sh
+```bash
+sudo chmod 777 apache.sh
+```
+4. eseguiamo il file apache.sh
+
+```bash
+./apache.sh
+```
 
 __________________
-# Procedura per nginx
+## Procedura per nginx
 
-# 1 scaricate i files git clone https://github.com/ArduinoDenis/certificato-https.git
+1. scarichiamo i files 
 
-# 2 cd /certificato-https
+```bash
+git clone https://github.com/ArduinoDenis/certificato-https.git
+```
+2. spostarti nella cartella dei file scaricati in precedenza
 
-# 3 sudo chmod 777 nginx.sh
+```bash
+cd /certificato-https
+```
 
-# 4 eseguite il nginx.sh quindi ./nginx.sh
+3. dare i permessi per eseguire il file nginx.sh
 
+```bash
+sudo chmod 777 nginx.sh
+```
+
+4. eseguiamo il file apache.sh
+
+```bash
+./nginx.sh
+```
 
 # guarda gli screen per aiutarti con la procedura
 
-<p>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto1.PNG?branch=main">
-<p>scrivete la vostra mail</p>
-<br>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto2.PNG?branch=main">
-<br>
-<img src="https://github.com/ArduinoDenis/certificato-https/blob/8064089587fa7dba5b9fcde57172e7e3efd8e8be/img/foto3.PNG?branch=main">
-</p>
+![foto1](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto1.PNG)
+* scrivete la vostra mail
+
+-----
+
+![foto2](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto2.PNG)
+* scrivete A
+
+-----
+
+![foto3](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto3.PNG)
+* scrivete N
+-----
+- Aspettare che abbia finito la procedura 
+
+- Al termine della procedura vi comunica che avete installato con successo il certificato https
