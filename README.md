@@ -1,89 +1,104 @@
-# Guida per installare il certificato https su un server linux
-## NB: nelle entrambi procedure dove vi viene detto git clone va fatto solo una volta
-_______________________
-### Procedura per apache
+# Guide to Install HTTPS Certificate on a Linux Server
 
-1. scaricate i files 
+## Note: In both procedures, where you are instructed to "git clone", it should be done only once.
 
-```bash
-git clone https://github.com/ArduinoDenis/certificato-https.git
-```
-2. spostarti nella cartella dei file scaricati in precedenza
+---
 
-```bash
-cd /certificato-https
-```
-3. sto dando i permessi per eseguire il file apache.sh
+### Procedure for Apache
 
-```bash
-sudo chmod 777 apache.sh
-```
-4. eseguiamo il file apache.sh
+1. Download the files:
 
-```bash
-./apache.sh
-```
+    ```bash
+    git clone https://github.com/ArduinoDenis/certificato-https.git
+    ```
 
-__________________
-### Procedura per nginx
+2. Navigate to the downloaded files folder:
 
-1. scarichiamo i files 
+    ```bash
+    cd /certificato-https
+    ```
 
-```bash
-git clone https://github.com/ArduinoDenis/certificato-https.git
-```
-2. spostarti nella cartella dei file scaricati in precedenza
+3. Provide executable permissions to the `apache.sh` file:
 
-```bash
-cd /certificato-https
-```
+    ```bash
+    sudo chmod 777 apache.sh
+    ```
 
-3. sto dando i permessi per eseguire il file nginx.sh
+4. Execute the `apache.sh` file:
 
-```bash
-sudo chmod 777 nginx.sh
-```
+    ```bash
+    ./apache.sh
+    ```
 
-4. eseguiamo il file apache.sh
+---
 
-```bash
-./nginx.sh
-```
+### Procedure for Nginx
 
-## guarda gli screen per aiutarti con la procedura
+1. Download the files:
+
+    ```bash
+    git clone https://github.com/ArduinoDenis/certificato-https.git
+    ```
+
+2. Navigate to the downloaded files folder:
+
+    ```bash
+    cd /certificato-https
+    ```
+
+3. Provide executable permissions to the `nginx.sh` file:
+
+    ```bash
+    sudo chmod 777 nginx.sh
+    ```
+
+4. Execute the `nginx.sh` file:
+
+    ```bash
+    ./nginx.sh
+    ```
+
+## Check the screenshots below for assistance:
 
 ![foto1](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto1.PNG)
-* scrivete la vostra mail
+* Enter your email address.
 
------
+---
 
 ![foto2](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto2.PNG)
-* scrivete A
+* Type `A`.
 
------
+---
 
 ![foto3](https://github.com/ArduinoDenis/certificato-https/blob/main/img/foto3.PNG)
-* scrivete N
------
-- Aspettare che abbia finito la procedura 
+* Type `N`.
 
-- Al termine della procedura vi comunica che avete installato con successo il certificato https
------
-## procedura per rinnovare il certificato https
+---
 
-1. mi sposto nella cartella certificato https
+- Wait for the procedure to finish.
 
-```bash
-cd /certificato-https
-```
+- At the end of the procedure, it will notify you that the HTTPS certificate has been successfully installed.
 
-2. sto dando i permessi per eseguire il file rinnovare-https.sh
+---
 
-```bash
-sudo chmod 777 rinnovare-https.sh
-```
-3. eseguiamo il file rinnovare-https.sh
+## Procedure to Renew the HTTPS Certificate
 
-```bash
-./rinnovare-https.sh
-```
+1. Navigate to the certificate HTTPS folder:
+
+    ```bash
+    cd /certificato-https
+    ```
+
+2. Provide executable permissions to the `rinnovare-https.sh` file:
+
+    ```bash
+    sudo chmod 777 rinnovare-https.sh
+    ```
+
+3. Execute the `rinnovare-https.sh` file:
+
+    ```bash
+    ./rinnovare-https.sh
+    ```
+
+---
